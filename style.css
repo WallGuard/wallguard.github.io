@@ -1,0 +1,165 @@
+html {
+    box-sizing: border-box;
+    background-color: hsl(0, 4%, 25%);
+    font-family: Arial, sans-serif;
+}
+
+*:after, *:before {
+    box-sizing: border-box;
+}
+
+.container {
+    justify-content: space-between;
+    display: flex;
+    max-width: 1140px;
+    background-color: #eaeaea;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px;
+}
+
+.profile {
+    width: 36.36363636363636%;
+    max-width: 400px;
+    background-color: #00416D;
+    color: #ababab;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.header__pic {
+    background-position: top;
+    background-size: cover;
+    padding-top: 20px
+
+}
+
+.image {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    max-height: 390px;
+    border-radius: 25px;
+}
+
+
+.theme__white {
+    margin: 0;
+    margin-top: 25px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    border-bottom: 2px #5a5a5a dashed;   
+}
+
+h2. {
+    font-size: 18px;
+}
+
+.prof__text {
+
+}
+
+
+.prof__content {
+    margin: auto;
+}
+
+.contacts {
+    margin-bottom: 20px;
+}
+
+.cont__item {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-bottom: 2px #5a5a5a dashed;
+}
+
+.cont__tittle {
+    color: #fff;
+    margin-bottom: 13px;
+    margin-left: 13px;
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+.icon__img:before {
+    position: absolute;
+    display: block;
+    content:'';
+    background-size: 25px 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #eee;
+    width: 30px;
+    height: 30px;
+    margin-left: -42px;
+    margin-top: 8px;
+    border-radius: 25%;
+}
+
+.icon__img:hover:before {
+    background-color: #ababab;
+
+}
+
+.icon__phone:before {
+       background-image: url(https://image.flaticon.com/icons/svg/15/15874.svg);
+}
+
+.icon__letter:before {
+        background-image: url(https://image.flaticon.com/icons/svg/126/126516.svg);
+}
+
+.icon__web:before {
+        background-image: url(https://image.flaticon.com/icons/svg/993/993791.svg);
+}
+
+.icon__city:before {
+        background-image: url(https://image.flaticon.com/icons/svg/1239/1239525.svg);
+}
+
+.cont__link {
+    color: #ababab;
+    text-decoration: none;
+    padding-left: 63px;
+}
+
+
+
+.resume {
+    width: 100%;
+    max-width: 740px;
+    padding: 25px 30px;
+}
+
+.resume__wrap {
+    height: 93%;
+    background-color: #aaa;
+    box-shadow: 1px 1px 10px;
+    padding: 25px 25px;
+    border: 3px solid #5a5a5a;
+}
+
+.theme__resume {
+    margin: 15px;
+    text-align: center;
+    padding: 0px;
+}
+
+.cnf{
+    margin: 0px;
+}
+
+.logotype {
+    height: 100px;
+}
+
+.aim {
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 25px;
+}
